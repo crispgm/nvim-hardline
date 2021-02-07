@@ -19,7 +19,7 @@ M.options = {
     {class = 'mode', item = require('hardline.parts.mode').get_item},
     {class = 'high', item = require('hardline.parts.git').get_item, hide = 80},
     '%<',
-    {class = 'med', item = require('hardline.parts.filename').get_item},
+    {class = 'med', item = require('hardline.parts.cwd').get_item},
     {class = 'med', item = '%='},
     {class = 'low', item = require('hardline.parts.wordcount').get_item, hide = 80},
     {class = 'error', item = require('hardline.parts.lsp').get_error},
